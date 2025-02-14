@@ -6,16 +6,6 @@ import numpy as np
 ListaDel1Al10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(*ListaDel1Al10)
 
-"""
-    python -m pip install --upgrade pip
-python -m pip install --upgrade pip
-python -m ensurepip --default-pip
-python -m venv env source env/bin/activate
-
-python --version
-C:\Users\Usuario\AppData\Local\Programs\Python\Python313
-\Users\Usuario\AppData\Local\Programs\Python\Python313\Scripts
-"""
 #Código crear un array de ceros de tamaño 5x5
 array_ceros = np.zeros((5,5))
 print(array_ceros)
@@ -38,8 +28,6 @@ maximo = np.max(array_numeros)
 print(f'el valor maximo es {maximo}')
 
 #Cambiar la forma de un array "reshape"
-array_reshpeado = array_numeros.reshape(2,3)
-print(array_reshpeado)
 
 array_original = np.array([1, 2, 3, 4, 5, 6])
 array_reshapeado = array_original.reshape(3,2)
@@ -88,6 +76,7 @@ incremento_notas = np.average(diferencias_Notas) # media ponderada
 print(diferencias_Notas)
 
 proyeccion_estudio = 12 
+promedio =  np.averange([[(50,75,100)],[4,8,10]])
 nota_estimada = (proyeccion_estudio -  max(horas_estudio)) * incremento_notas + max(notas) # este es el incremento que voy a tener en la nota 12 - 10 nota maxima
 nota_estimada_Minimo = (min(horas_estudio) - proyeccion_estudio) * incremento_notas + min(notas) # este es el incremento que voy a tener en la nota 12 - 10 nota maxima
 print(f'el incremento del promedio por cada hora de estudio es {incremento_notas:.2f}')

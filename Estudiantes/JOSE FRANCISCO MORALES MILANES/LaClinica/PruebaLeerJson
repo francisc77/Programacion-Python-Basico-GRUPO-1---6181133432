@@ -1,0 +1,12 @@
+import json
+#puedes acceder a sus elementos usando índices y claves, dependiendo de la estructura del JSON.
+with open('datos.json', encoding='utf-8') as archivo:
+    datos = json.load(archivo)
+    json.load(archivo)
+    print(datos) # Muestra el contenido completo
+    
+    # Accedemos al primer nivel: clave "personas"
+    personas = datos["personas"]
+    # Accedemos al primer elemento de la lista "personas"
+    primera_persona = personas[0]
+    
