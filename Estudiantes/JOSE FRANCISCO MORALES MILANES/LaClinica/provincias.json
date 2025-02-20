@@ -1,0 +1,30 @@
+[
+    {
+     "codigo": "01",
+     "provincia": "San José"
+    },
+    {
+     "codigo": "02",
+     "provincia": "Alajuela"
+    },
+    {
+     "codigo": "03",
+     "provincia": "Cartago"
+    },
+    {
+     "codigo": "04",
+     "provincia": "Heredia"
+    },
+    {
+     "codigo": "05",
+     "provincia": "Guanacaste"
+    },
+    {
+     "codigo": "06",
+     "provincia": "Puntarenas"
+    },
+    {
+     "codigo": "07",
+     "provincia": "Limón"
+    }
+   ]

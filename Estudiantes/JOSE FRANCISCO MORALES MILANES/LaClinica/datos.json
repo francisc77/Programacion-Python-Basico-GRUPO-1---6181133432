@@ -1,0 +1,15 @@
+{ "personas": [ 
+    { 
+        "nombre": "Juan", 
+        "edad": 30, 
+        "ciudad": "San José", 
+        "hobbies": ["leer", "jugar fútbol", "cocinar"]
+        },
+        {
+        "nombre": "Ana", 
+        "edad": 25, 
+        "ciudad": "Cartago", 
+        "hobbies": ["escribir", "viajar"] 
+} 
+] 
+}
